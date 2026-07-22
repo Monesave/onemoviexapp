@@ -1,0 +1,44 @@
+name: onemoviex_flutter
+description: Onemoviex – Web app
+publish_to: "none"
+
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management and utilities (can be adjusted later)
+  flutter_hooks: ^0.20.5
+  hooks_riverpod: ^2.5.0
+
+  # Supabase client for Flutter
+  supabase_flutter: ^2.5.6
+
+  # Routing
+  go_router: ^14.0.0
+
+  # UI helpers
+  google_fonts: ^6.2.1
+
+  # Open external URLs (cinema search, Netflix, etc.)
+  url_launcher: ^6.3.0
+
+  # Confetti animation for match screen
+  confetti: ^0.7.0
+  http: ^1.6.0
+  image_picker: ^1.1.2
+  file_picker: ^8.1.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+

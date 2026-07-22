@@ -1,0 +1,24 @@
+﻿Analyzing onemoviex_flutter...                                  
+
+   info - Dangling library doc comment - lib\env.dart:1:1 - dangling_library_doc_comments
+   info - Use 'const' with the constructor to improve performance - lib\faq_page.dart:27:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\faq_page.dart:32:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\faq_page.dart:37:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\faq_page.dart:42:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\faq_page.dart:47:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\faq_page.dart:52:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\faq_page.dart:57:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\faq_page.dart:62:11 - prefer_const_constructors
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\main.dart:571:61 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\main.dart:572:61 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\main.dart:645:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\main.dart:648:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\main.dart:725:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\main.dart:736:34 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\main.dart:746:36 - deprecated_member_use
+  error - The named parameter 'padding' isn't defined - lib\match_page.dart:112:25 - undefined_named_parameter
+   info - Don't use 'BuildContext's across async gaps - lib\rooms_page.dart:599:21 - use_build_context_synchronously
+   info - Unnecessary use of string interpolation - lib\rooms_page.dart:826:15 - unnecessary_string_interpolations
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\rooms_page.dart:1404:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\rooms_page.dart:1451:40 - deprecated_member_use
+
