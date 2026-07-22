@@ -116,9 +116,13 @@ class _AuthPageState extends State<AuthPage> {
     super.dispose();
   }
 
-  String get _redirectUrl => kIsWeb
-      ? 'https://www.onemoviex.com/'
-      : 'io.supabase.flutterquickstart://login-callback/';
+  String get _redirectUrl {
+    if (kIsWeb) {
+      final origin = Uri.base.origin;
+      return origin.endsWith('/') ? origin : '$origin/';
+    }
+    return 'io.supabase.flutterquickstart://login-callback/';
+  }
 
   Future<void> _handleOAuthSignIn(OAuthProvider provider) async {
     setState(() => _isLoading = true);
