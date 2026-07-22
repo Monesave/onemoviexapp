@@ -6,7 +6,7 @@
   "installCommand": null,
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/((?!.*\\.(?:js|json|css|png|jpg|jpeg|svg|ico|wasm|otf|ttf|woff|woff2|frag)$).*)",
       "destination": "/index.html"
     }
   ],
@@ -25,6 +25,23 @@
         {
           "key": "X-XSS-Protection",
           "value": "1; mode=block"
+        }
+      ]
+    },
+    {
+      "source": "/(index.html|flutter_service_worker.js|flutter_bootstrap.js|main.dart.js|version.json|manifest.json)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "key": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "key": "Expires",
+          "value": "0"
         }
       ]
     }
